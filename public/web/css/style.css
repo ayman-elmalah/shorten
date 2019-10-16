@@ -1,0 +1,236 @@
+/** 
+ *  #5966f7
+ * 	#6281f5
+ * 	#ffe0ae
+ *  #a1d1cb
+ *  	#fe7dcc
+*/
+
+:root{
+    --main-color:#727dd6;
+    --secondary-color:	#fe7dcc;
+    --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+}
+
+body{
+    background: #f8f8f8;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+    background-color: var(--main-color) !important;
+    border-bottom: 1px solid lightblue;
+    
+}
+nav a{
+    color: #fff;
+}
+nav a:hover{
+color: #fff;
+}
+nav .navbar-brand{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Bubblegum Sans', cursive;
+
+}
+.custom-toggler.navbar-toggler {
+    border-color: black
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.pt {
+    padding-top: 12px;
+}
+
+.btn-log{
+background-color: #6cd6aa
+}
+.btn-reg{
+    background-color: #1076f7
+
+}
+/*hero section */
+
+.hero{
+    background-color: var(--main-color);
+    padding: 60px 0;
+    color: #fff;
+}
+
+
+
+.hero .form-control{
+    padding: 1.475rem .75rem;
+
+}
+.hero .input-group-append button{
+    border:2px solid #fff;color: #fff;
+}
+
+.hero .term {
+    font-size:15px;
+}
+
+/*about section*/
+
+.about {
+    color: #0000009c;
+    padding: 40px 0;
+    border-bottom: 1px solid var(--main-color);
+}
+
+
+.featuers {
+    color: #0000009c;
+    padding: 40px 0;
+
+}
+.featuers i {
+    color: var(--main-color);
+    padding-bottom: 3px;
+}
+
+footer {
+    border-top: 3px solid var(--main-color);
+}
+footer a,footer a:hover {
+    color: var(--main-color);
+    text-decoration: none;
+}
+footer ul li {
+    padding: 0 5px;
+}
+
+.result {
+    padding: 40px 0;
+}
+
+.result .result-box{
+    border: 1px solid lightgray;padding: 10px;
+    border-radius: 5px;
+}
+
+.result .btn {
+    color: #fff;
+    background-color: var(--main-color);
+    border: none;
+}
+.card-signin {
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-signin .card-title {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+  
+  .card-signin .card-body {
+    padding: 2rem;
+  }
+  
+  .form-signin {
+    width: 100%;
+  }
+  
+  .form-signin .btn {
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+  }
+  
+  .form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .form-label-group input {
+    height: auto;
+    border-radius: 2rem;
+  }
+  
+  .form-label-group>input,
+  .form-label-group>label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+  }
+  
+  .form-label-group>label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    /* Override default `<label>` margin */
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+  }
+  
+  .form-label-group input::-webkit-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input:-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input::-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input::-moz-placeholder {
+    color: transparent;
+  }
+
+  .btn-form {
+      background-color: var(--main-color);
+      color: #fff;
+      font-size:20px;
+  }
+  .btn-form:hover{
+    color: #f8f8f8
+  }
+
+  .text-main{
+      font-size: 45px;
+      color: var(--main-color);
+      font-family: 'Bubblegum Sans', cursive;
+
+  }
+
+ .btn-lg {
+
+    line-height: 1.2 !important;
+
+  }
+
+ .pagination {
+     display: inline-flex;
+ }
+
+ .pagination .link {
+     margin:5px;
+ }
+
+ .pagination .link a{
+     background-color: #fff;
+     padding: 5px 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+ }
+
+.pagination .link.active a{
+    background-color: #727DD6;
+    color:#fff;
+}
